@@ -1,0 +1,19 @@
+# Ignorer les dossiers système et les fichiers temporaires
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers de cache ou de configuration
+node_modules/
+.vscode/
+.idea/
+*.log
+*.bak
+
+# Ignorer les fichiers de configuration personnels
+*.swp
+*.swo
+*.history
+*.bash_history
+
+# Ignorer les fichiers de l'OS
+NTUSER.DAT*
